@@ -9,8 +9,7 @@ If you need a docker image like this one but for NVIDIA jetson, this repo has a 
 > 
 > Nvidia ecosystem can be quite difficult, I know.
 
-**Note:** At the moment it properly works only for GPUs with compute capability of 6.1, soon it will be 
-available for all. To check your GPU compute capability check [here](https://developer.nvidia.com/cuda-gpus).
+**Note:** This docker image should work with every compute capability available at 2023-12-02 [here](https://developer.nvidia.com/cuda-gpus).
 
 # What's inside the image?
 - Ubuntu 18.04

@@ -2,11 +2,6 @@
 # 2019 Michael de Gans, https://github.com/mdegans/nano_build_opencv/blob/master/build_opencv.sh
 
 
-# TODO use tmp instead of opt
-# TODO remove CUDA_ARCH_BIN=6.1 to build for all computability: https://forum.opencv.org/t/opencv-cuda-enabled-build-example-for-cuda-compute-capability-8-9-such-as-rtx-4090/12479
-
-
-
 set -e
 
 # change default constants here:
@@ -152,8 +147,6 @@ configure () {
         -D WITH_CUDA=ON
         -D OPENCV_EXTRA_MODULES_PATH=/opt/build_opencv/opencv_contrib/modules
         -D EIGEN_INCLUDE_PATH=/usr/include/eigen3
-        -D CUDA_ARCH_BIN=6.1
-        -D CUDA_ARCH_PTX=
         -D CUDNN_VERSION='8.5'
         -D CUDA_FAST_MATH=ON
         -D OPENCV_DNN_CUDA=ON
