@@ -15,7 +15,10 @@ RUN apt-get update && apt-get upgrade && apt-get -y install \
     python3.8 \
     debhelper \
     autoconf \
-    libncursesw5-dev
+    libncursesw5-dev \
+    locales \
+    libgpm2
+
 
 # Build python
 RUN apt-get install --reinstall ca-certificates -y \
