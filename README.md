@@ -35,6 +35,8 @@ docker run -i -t --gpus=all federicolanzani/opencv-cuda bash
 
 # Build
 
+# Commands
 
 
+docker run -i -t --gpus=all federicolanzani/opencv-cuda bash
 
