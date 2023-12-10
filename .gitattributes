@@ -1,3 +1,5 @@
 ubuntu18.04-py3.6.8-opencv4.8.0/installer/OpenCV-4.8.0-x86_64.sh filter=lfs diff=lfs merge=lfs -text
 ubuntu18.04-cuda-py3.6.8-opencv4.8.0/installer/OpenCV-4.8.0-x86_64.sh filter=lfs diff=lfs merge=lfs -text
 ubuntu18.04-cuda-py3.6.8-opencv4.8.0/installer/OpenCV-4.8.0-x86_64.sh filter=lfs diff=lfs merge=lfs -text
+OpenCV-*.sh filter=lfs diff=lfs merge=lfs -text
+ubuntu18.04-cuda-py3.10.11-opencv4.8.0/installer/OpenCV-4.8.0-x86_64.sh filter=lfs diff=lfs merge=lfs -text

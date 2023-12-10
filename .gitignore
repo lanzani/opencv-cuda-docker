@@ -288,5 +288,5 @@ pyrightconfig.json
 
 # End of https://www.toptal.com/developers/gitignore/api/python,pycharm
 
-ubuntu18.04-cuda-py3.6.8-opencv4.8.0/installer/*.Z
-ubuntu18.04-cuda-py3.6.8-opencv4.8.0/installer/*.tar.gz
+*.Z
+*.tar.gz
